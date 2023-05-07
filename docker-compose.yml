@@ -12,7 +12,7 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node1
     volumes:
-     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-react/build:/usr/share/nginx/html
     ports:
       - "80"
 
@@ -20,7 +20,7 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node2
     volumes:
-     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-react/build:/usr/share/nginx/html
     ports:
       - "80"
 
@@ -28,7 +28,7 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node3
     volumes:
-     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-react/build:/usr/share/nginx/html
     ports:
       - "80"
 
@@ -36,6 +36,6 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node4
     volumes:
-     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+     - /home/juvenal/Documentos/aemotor-loadbalancer/build/aemotor-react/build:/usr/share/nginx/html
     ports:
       - "80"
